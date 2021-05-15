@@ -40,7 +40,7 @@ fn main() {
     if let Some(x) = &parse {
         text.push(*x);
     } else {
-        panic!("fuckoff");
+        panic!("please can you provide more nicer unicode sequence? it should be something like xxxx");
     }
 
     let img_size: u32 = opts.size;
